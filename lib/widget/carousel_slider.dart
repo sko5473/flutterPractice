@@ -66,43 +66,42 @@ class _CarouselImageState extends State<CarouselImage> {
                         '내가 찜한 콘텐츠',
                         style: TextStyle(fontSize: 11),
                       ),
-                      Container(
-                        padding: EdgeInsets.only(right: 10),
-                        child: Column(
-                          children: <Widget>[
-                            IconButton(
-                                onPressed: () {}, icon: Icon(Icons.info)),
-                            Text(
-                              '정보',
-                              style: TextStyle(fontSize: 11),
-                            )
-                          ],
-                        ),
+                    ],
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.only(right: 10),
+                  child: Column(
+                    children: <Widget>[
+                      IconButton(
+                          onPressed: () {}, icon: Icon(Icons.info)),
+                      Text(
+                        '정보',
+                        style: TextStyle(fontSize: 11),
                       )
                     ],
                   ),
-                )
-              ],
-            ),
-          ),
-          Container(
-            padding: EdgeInsets.only(right: 10),
-            child: OutlinedButton(
-              onPressed: () {},
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
-                  Icon(
-                    Icons.play_arrow,
-                    color: Colors.white,
+                ),
+                Container(
+                  padding: EdgeInsets.only(right: 10),
+                  child: OutlinedButton(
+                    onPressed: () {},
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: <Widget>[
+                        Icon(
+                          Icons.play_arrow,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          '재생',
+                          style: TextStyle(color: Colors.white),
+                        )
+                      ],
+                    ),
                   ),
-
-                  Text(
-                    '재생',
-                    style: TextStyle(color: Colors.white),
-                  )
-                ],
-              ),
+                ),
+              ],
             ),
           ),
           Container(
